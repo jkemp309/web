@@ -1,4 +1,8 @@
 import './stylesheet.css'
+async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+"imports": {
+      "three": "https://unpkg.com/three@<version>/build/three.module.js"
+    }
 import * as THREE from 'three';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
